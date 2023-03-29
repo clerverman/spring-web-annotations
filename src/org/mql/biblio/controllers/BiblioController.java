@@ -11,7 +11,7 @@ public class BiblioController {
 	@Autowired
 	private BiblioService service;
 
-	@Autowired
+	@Autowired // get title
 	private String title;
 
 	public BiblioController() {
